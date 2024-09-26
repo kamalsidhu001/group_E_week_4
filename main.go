@@ -8,7 +8,8 @@ func main() {
 	fmt.Println("Welcome to GroupE's Week 4 Project")
 	fmt.Println(substract(4, 3))
 	fmt.Println(("Manpreet Kaur"))
-	
+	fmt.Println(multiply(6, 3))
+
 
 }
 }
@@ -34,3 +35,11 @@ func bubbleSort(arr []int)
 func string (a string ,b string) string{
 	return a+b
 }
+
+//priyanka rani
+//multiply of strings
+
+func multiply(a int, b int) int {
+	return a * b
+}
+
