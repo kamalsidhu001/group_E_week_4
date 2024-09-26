@@ -7,6 +7,10 @@ import "fmt"
 func main() {
 	fmt.Println("Welcome to GroupE's Week 4 Project")
 	fmt.Println(substract(4, 3))
+	fmt.Println(("Manpreet Kaur"))
+	
+
+}
 }
 func substract(a int, b int) int {
 	return a - b
@@ -22,4 +26,11 @@ func bubbleSort(arr []int)
             }
         }
     }
-}  
+}
+
+//Manpreet Kaur
+//Addition of strings
+
+func string (a string ,b string) string{
+	return a+b
+}
