@@ -42,4 +42,12 @@ func string (a string ,b string) string{
 func multiply(a int, b int) int {
 	return a * b
 }
-
+//Prabhjot Kaur
+// Variadic Functions
+func sum(numbers ...int) int {
+    total := 0
+    for _, number := range numbers {
+        total += number
+    }
+    return total
+}
