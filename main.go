@@ -37,7 +37,7 @@ func string (a string ,b string) string{
 }
 
 //priyanka rani
-//multiply of strings
+//multiply of integers
 
 func multiply(a int, b int) int {
 	return a * b
